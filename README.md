@@ -1,2 +1,2 @@
 # hib.search-javabased-example
-hibernate Search example - only java based configuration
+hibernate Search example - 100% java based configuration
