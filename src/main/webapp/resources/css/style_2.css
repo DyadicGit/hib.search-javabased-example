@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-repeat: repeat;
+    background-position: left bottom;
+    background-image: -webkit-repeating-linear-gradient(333deg,rgba(255,255,255,1.00) 0%,rgba(238,238,255,1.00) 76.16%,rgba(144,176,240,1.00) 100%);
+    background-image: -moz-repeating-linear-gradient(333deg,rgba(255,255,255,1.00) 0%,rgba(238,238,255,1.00) 76.16%,rgba(144,176,240,1.00) 100%);
+    background-image: -o-repeating-linear-gradient(333deg,rgba(255,255,255,1.00) 0%,rgba(238,238,255,1.00) 76.16%,rgba(144,176,240,1.00) 100%);
+    background-image: repeating-linear-gradient(117deg,rgba(255,255,255,1.00) 0%,rgba(238,238,255,1.00) 76.16%,rgba(144,176,240,1.00) 100%);
+    background-attachment: fixed;
+    font-family: "Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 180px;
+    text-transform: uppercase;
+    color: #191F86;
+    position: absolute;
+    text-shadow: 0 1px 1px #45A8DF;
+    top: -25px;
+    left: -20px;
+    white-space: nowrap;
+}
+span.reference{
+    position:fixed;
+    left:10px;
+    bottom:10px;
+    font-size:11px;
+}
+span.reference a{
+    color:#fff;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-shadow:0 1px 0 #000;
+}
+span.reference a:hover{
+    color:#f0f0f0;
+}
+.box{
+    margin:129px auto 0 auto;
+    height:14em;
+    width:100%;
+    position:relative;
+    -moz-box-shadow:0px 0px 5px #444;
+    -webkit-box-shadow:0px 0px 5px #444;
+    box-shadow:0px 0px 5px #444;
+}
+.box h2{
+    border-color: #70C1EF;
+    border-style: ridge ridge solid;
+    border-width: 1px;
+    color: #B8C6E5;
+    font-size: 22px;
+    padding: 10px;
+    text-shadow: 3px 2px 1px #7D7E80;
+    background-image: inherit, -webkit-linear-gradient(9deg,rgba(213,32,35,1.00) 0%,rgba(122,159,234,1.00) 64.25%);
+    background-image: inherit, -moz-linear-gradient(9deg,rgba(213,32,35,1.00) 0%,rgba(122,159,234,1.00) 64.25%);
+    background-image: inherit, -o-linear-gradient(9deg,rgba(213,32,35,1.00) 0%,rgba(122,159,234,1.00) 64.25%);
+    background-image: inherit, linear-gradient(81deg,rgba(213,32,35,1.00) 0%,rgba(122,159,234,1.00) 64.25%);
+}
